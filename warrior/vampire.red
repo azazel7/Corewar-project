@@ -1,0 +1,9 @@
+MOV.I $4, $4
+ADD.AB #6, $3
+SUB.AB #6, $-2
+JMP.A $-3, $0
+JMP.A @0, $1
+SPL.A $1, $-100
+MOV.I $2, <-1
+JMP.A $-1, $0
+DAT.I #0, #0
